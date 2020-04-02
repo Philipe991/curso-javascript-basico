@@ -78,20 +78,61 @@ console.log(fruta);
 //imprime somente o atributo cor
 alert(fruta.cor);
 */
-
+/*
 // criar um array de dicionário
 var frutas = [{nome: "maçã", cor: "vermelho"},{nome:"uva", cor:"roxa"}]
 //imprime todo o dicionário
 console.log(frutas);
 //imprime somente o atributo cor
 alert(frutas[1].cor);
+*/
 
+// AULA 03 - Condicionais, laços de repetição e Date
+/*
+var idade = 18;
+if(idade >= 18){
+    alert("Maior de idade")
+}else{
+    alert("Menor de idade")
+}
+*/
 
+/*
+//entrada de dados pelo navegador
+var idade = prompt("Qual a sua idade?");
+if(idade >= 18){
+    alert("Maior de idade")
+}else{
+    alert("Menor de idade")
+}
+*/
 
+/*
+// estrutura de repetição while
+var count =0;
+while(count<=5){
+    console.log(count);
+    count++;
+};
+*/
 
+/*
+// estrutura de repetição for
+var count;
+for(count = 0; count <=5; count++){
+    alert(count);
+}
+*/
 
-
-
+/*
+// trabalhando com datas
+var d = new Date();
+alert(d);
+alert(d.getDate());
+alert(d.getDay());
+alert(d.getHours());
+alert(d.getMonth());
+*/
 
 
 
