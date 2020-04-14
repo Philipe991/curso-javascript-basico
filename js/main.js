@@ -134,11 +134,29 @@ alert(d.getHours());
 alert(d.getMonth());
 */
 
+// AULA 4 - FUNÇÕES
+/*
+function soma(n1,n2){
+    return n1+n2;
+}
 
+alert(soma(5,10));
+*/
 
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
+}
 
+function redirecionar(){
+    //abre o link em nova janela
+    window.open("https://google.com");
+    //abre o link na mesma janela
+    window.location.href = "https://google.com";
+}
 
-
-
+function trocar(){
+    //alert("trocar texto");
+    document.getElementById("mousemove").innerHTML = "<b>Obrigado por passar o mouse</b>";
+}
 
 
